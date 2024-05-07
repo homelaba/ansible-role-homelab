@@ -5,14 +5,16 @@ Create file `ansible/roles/requirements.yml`
 
 ```yaml
 ---
-- name: lxc
-  src: https://github.com/homelaba/ansible-role-homelab.git
-  scm: git
+roles:
+  - src: https://github.com/homelaba/ansible-role-homelab.git
+    name: create_lxc
+    version: main
+    scm: git
 ```
 
 Install command
 
 ```bash
-ansible-galaxy install --role-file ansible/roles/requirements.yml --roles-path ansible/roles/ lxc.isntall_docker
+ansible-galaxy role install -r ansible/roles/requirements.yml -p ansible/roles
 ```
 
