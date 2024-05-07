@@ -1,7 +1,7 @@
 # ansible-role-homelab
 Ansbile role for proxmox create lxc and install tools
 
-Create 
+Create file `ansible/roles/requirements.yml`
 
 ```yaml
 ---
@@ -10,7 +10,7 @@ Create
   scm: git
 ```
 
-Command
+Install command
 
 ```bash
 ansible-galaxy install --role-file ansible/roles/requirements.yml --roles-path ansible/roles/ --ignore-errors
