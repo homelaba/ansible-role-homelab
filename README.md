@@ -13,6 +13,6 @@ Create file `ansible/roles/requirements.yml`
 Install command
 
 ```bash
-ansible-galaxy install --role-file ansible/roles/requirements.yml --roles-path ansible/roles/ --ignore-errors
+ansible-galaxy install --role-file ansible/roles/requirements.yml --roles-path ansible/roles/ lxc.isntall_docker
 ```
 
