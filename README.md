@@ -5,7 +5,7 @@ Create file `ansible/roles/requirements.yml`
 
 ```yaml
 ---
-- name: awx-operator
+- name: lxc
   src: https://github.com/homelaba/ansible-role-homelab.git
   scm: git
 ```
